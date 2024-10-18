@@ -1,19 +1,26 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
-void solve() {
+
+void solve(){
+    // read the input
     int n, k;
-    cin >> n >> k; // Read n and k for each test case
+    cin >> n >> k;
     string s;
-    cin >> s; // Read the string s
+    cin >> s;
 
-    // Your code here;
+    // Your code here
+
+    if(possible){ // Replace possible with your condition!
+        cout << "YES" << endl;
+    }else{
+        cout << "NO" << endl;
+    }
 }
-
-int main() {
-    int t;
-    cin >> t; // Read the number of test cases
-    while(t--) {
+int main(){
+    int cases;
+    cin >> cases;
+    for(int c = 0; c < cases; c++){
         solve();
     }
 }

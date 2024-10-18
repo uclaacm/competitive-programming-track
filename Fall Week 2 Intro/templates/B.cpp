@@ -2,20 +2,22 @@
 using namespace std;
 
 void solve() {
-    int n;
-    cin >> n; // Read the length of the array
-    vector<int> arr(n);
-    for(int i = 0; i < n; i++) {
-        cin >> arr[i]; // Read the elements of the array
-    }
+  int n;
+  cin >> n;
+  vector<int> a(n, 0); // container for n integers
+  for (int i = 0; i < n; i++) {
+    cin >> a[i]; // read n integers
+  }
 
-    // Your code here;
+  // Your code here
+
+  // Print the output; it should be stored in 'ans'
+  cout << ans << '\n';
 }
-
 int main() {
-    int t;
-    cin >> t; // Read the number of test cases
-    while(t--) {
-        solve();
-    }
+  int cases;
+  cin >> cases;
+  for (int c = 1; c <= cases; c++) {
+    solve();
+  }
 }
