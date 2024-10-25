@@ -18,7 +18,7 @@ int main(){
     // a lot when solving this problem. But if we computed it naively every time,
     // it would be too slow, so you can use the vector 'prefix' to find the precomputed
     // prefix sums.
-    vector<int> prefix(0);
+    vector<int> prefix(n);
     prefix[0] = a[0];
     for(int i = 1; i < n; i++){
         prefix[i] = prefix[i - 1] + a[i];
