@@ -11,7 +11,7 @@ void solve(){
 
 int main(){
     int qr;
-    cin >> qr; // reads the test cases and starts processing each onex
+    cin >> qr; // reads the test cases and starts processing each one
     for(int tc = 1; tc <= qr; tc++){
         solve();
     }
