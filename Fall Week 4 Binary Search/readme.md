@@ -1,5 +1,6 @@
 Python: Binary search on [1,n]
 
+```
 L, R = 1, n
 while L < R:
     mid = (L + R) // 2
@@ -8,10 +9,12 @@ while L < R:
     else:
         R = mid
 ans = L
+```
 
 
 C++: Binary search on [1,n]
 
+```
 int L=1, R=n;
 while (L<R)
 {
@@ -22,3 +25,4 @@ while (L<R)
         R = mid;
 }
 ans = L;
+```
