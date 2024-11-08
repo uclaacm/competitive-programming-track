@@ -32,8 +32,8 @@ int main()
         bfs.push(i);
         dists[i] = 1; // chain starts with length 1 (just the manager)
         while(!bfs.empty()) {
-            int manager = bfs.front(); bfs.pop(); // get front of queue and remove it
-            for(int employee: adj[manager]) {
+            int cur = bfs.front(); bfs.pop(); // get front of queue and remove it
+            for(int employee: adj[cur]) {
                 // loop through the vector
 
                 /*
@@ -43,7 +43,7 @@ int main()
                 Why? There is only one manager for each employee
                 */
                 
-                dists[employee] = dists[manager] + 1;
+                dists[employee] = dists[cur] + 1;
                 bfs.push(employee);
             }
         }
