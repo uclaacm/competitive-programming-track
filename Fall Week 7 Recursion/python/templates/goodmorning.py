@@ -13,7 +13,7 @@ def dfs(i, j, curnum, target)
 
 
 qr = int(input())
-for tc in range(1, qr + 1):
+for tc in range(qr):
     target = int(input())
     ans = 0
     dfs(0, 0, 0, target)
