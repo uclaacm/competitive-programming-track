@@ -1,4 +1,16 @@
-#include <bits/stdc++.h>
+#include <vector>
+#include <set>
+#include <unordered_set>
+#include <map>
+#include <unordered_map>
+#include <list>
+#include <stack>
+#include <queue>
+#include <deque>
+#include <utility>
+#include <tuple>
+#include <string>
+#include <iostream>
 using namespace std;
 
 //TODO: Find the single number and print (don't do "Case # ...", we do that in main)
