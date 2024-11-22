@@ -11,6 +11,10 @@
 #include <tuple>
 #include <string>
 #include <iostream>
+<<<<<<< HEAD
+=======
+#include <algorithm>
+>>>>>>> c170222 (Add Knigs of the Forest)
 #include <cassert>
 using namespace std;
 
