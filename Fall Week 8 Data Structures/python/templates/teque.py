@@ -13,16 +13,11 @@ for _ in range(n):
         if len(back) > len(front):
             front.append(back.popleft())
     elif cmd == "push_front":
-        front.appendleft(x)
-        if len(front) > len(back) + 1:
-            back.appendleft(front.pop())
+        # TODO: Implement push_front
+        pass
     elif cmd == "push_middle":
-        if len(front) == len(back):
-            front.append(x)
-        else:
-            back.appendleft(x)
+        # TODO: Implement push_middle
+        pass
     elif cmd == "get":
-        if x < len(front):
-            print(front[x])
-        else:
-            print(back[x - len(front)])
+        # TODO: Implement get
+        pass
